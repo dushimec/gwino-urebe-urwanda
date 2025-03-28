@@ -149,7 +149,7 @@ const Navbar = () => {
 
         {/* Business Hours Marquee */}
         <div className="mt-2 text-sm text-green-900">
-          <marquee behavior="scroll" direction="left">
+          <marquee behavior="scroll" direction="left" scrollamount="1">
             Business Hours: Monday - Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 4:00 PM | Sunday: Closed
           </marquee>
         </div>
