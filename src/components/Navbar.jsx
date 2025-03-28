@@ -16,12 +16,10 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  // Function to determine if a link is active
   const isActive = (path) => {
     return location.pathname === path
   }
 
-  // Style for active and hover links - underline added
   const activeLinkClass = "text-green-500 font-semibold underline text-sm"
   const inactiveLinkClass = "text-gray-700 hover:text-green-700 font-medium hover:underline text-sm"
 
@@ -68,13 +66,11 @@ const Navbar = () => {
               </Link>
             </nav>
 
-            {/* Language and Theme Toggles moved to the right */}
             <div className="hidden md:flex items-center space-x-1">
               <LanguageSelector />
               <ThemeToggle />
             </div>
 
-            {/* Mobile Menu Button */}
             <div className="md:hidden flex items-center">
               <button onClick={toggleMenu} className="ml-2 text-gray-700">
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -144,17 +140,22 @@ const Navbar = () => {
             >
               {t("nav.blog")}
             </Link>
-            {/* Language Selector and Theme Toggle for Mobile */}
             <div className="flex justify-center items-center space-x-2 mt-3">
               <LanguageSelector />
               <ThemeToggle />
             </div>
           </nav>
         )}
+
+        {/* Business Hours Marquee */}
+        <div className="mt-2 text-sm text-green-900">
+          <marquee behavior="scroll" direction="left">
+            Business Hours: Monday - Friday: 8:00 AM - 6:00 PM | Saturday: 9:00 AM - 4:00 PM | Sunday: Closed
+          </marquee>
+        </div>
       </div>
     </header>
   )
 }
 
 export default Navbar
-
