@@ -26,9 +26,9 @@
   },
   "home": {
     "hero": {
-      "title": "Bienvenue à GWINO UREBE URWANDA RWIZA",
+      "title": "Bienvenue au Tourisme au Rwanda",
       "subtitle": "Découvrez la beauté du Rwanda, le Pays des Mille Collines",
-      "cta": "Planifiez Votre Circuit"
+      "cta": "Découvrez les Circuits"
     },
     "whyChooseUs": {
       "title": "Pourquoi Nous Choisir",
@@ -102,20 +102,56 @@
       "contactUs": "Contactez-Nous"
     }
   },
-  "destinations": {
-    "hero": {
-      "title": "Destinations",
-      "subtitle": "Explorez les plus beaux endroits que le Rwanda a à offrir"
-    },
-    "activities": "Activités:",
-    "exploreTours": "Explorer les Circuits",
-    "cta": {
-      "title": "Prêt à Explorer Ces Destinations Incroyables?",
-      "subtitle": "Laissez-nous vous aider à planifier l'itinéraire parfait au Rwanda",
-      "viewTours": "Voir Nos Circuits",
-      "contactUs": "Contactez-Nous"
-    }
+"destinations": {
+  "hero": {
+    "title": "Destinations",
+    "subtitle": "Découvrez les plus beaux endroits que le Rwanda a à offrir"
   },
+  "activities": "Activités :",
+  "exploreTours": "Explorer les circuits",
+  "cta": {
+    "title": "Prêt à explorer ces destinations incroyables ?",
+    "subtitle": "Laissez-nous vous aider à planifier l'itinéraire parfait au Rwanda",
+    "viewTours": "Voir nos circuits",
+    "contactUs": "Contactez-nous"
+  },
+  "volcanoesPark": {
+    "name": "Parc National des Volcans",
+    "description": "Un refuge pour les gorilles de montagne et les singes dorés.",
+    "longDescription": "Explorez les forêts luxuriantes du Parc National des Volcans, abritant les majestueux gorilles de montagne et une variété d'animaux sauvages.",
+    "activities": ["Randonnée avec les gorilles", "Observation des singes dorés", "Randonnée pédestre"]
+  },
+  "lakeKivu": {
+    "name": "Lac Kivu",
+    "description": "Un lac serein offrant des vues imprenables et des activités nautiques.",
+    "longDescription": "Détendez-vous au bord des eaux tranquilles du lac Kivu, faites du kayak et explorez la beauté des collines environnantes.",
+    "activities": ["Kayak", "Balades en bateau", "Natation"]
+  },
+  "genocideMemorials": {
+    "name": "Mémoriaux du Génocide",
+    "description": "Sites commémorant l'histoire et la résilience du Rwanda.",
+    "longDescription": "Visitez les mémoriaux du génocide pour découvrir l’histoire du Rwanda et honorer la résilience de son peuple.",
+    "activities": ["Visites guidées", "Expositions éducatives"]
+  },
+  "nyungweForest": {
+    "name": "Forêt de Nyungwe",
+    "description": "Une forêt tropicale préservée avec une faune variée et des passerelles suspendues.",
+    "longDescription": "Découvrez la biodiversité de la forêt de Nyungwe, connue pour ses chimpanzés, ses oiseaux et sa passerelle emblématique.",
+    "activities": ["Randonnée avec les chimpanzés", "Passerelle dans la canopée", "Observation des oiseaux"]
+  },
+  "akageraPark": {
+    "name": "Parc National de l'Akagera",
+    "description": "Un parc de savane avec une faune diversifiée et des paysages magnifiques.",
+    "longDescription": "Découvrez la beauté du Parc National de l'Akagera, abritant les Big Five et des paysages de savane à couper le souffle.",
+    "activities": ["Safaris", "Excursions en bateau", "Observation des oiseaux"]
+  },
+  "kigaliCity": {
+    "name": "Ville de Kigali",
+    "description": "La capitale dynamique du Rwanda, riche en culture et en histoire.",
+    "longDescription": "Explorez la ville de Kigali, connue pour sa propreté, ses sites culturels et ses marchés animés.",
+    "activities": ["Visites de la ville", "Visites de musées", "Marchés locaux"]
+  }
+},
   "culturalExperiences": {
     "hero": {
       "title": "Expériences Culturelles",
@@ -155,12 +191,73 @@
     },
     "featuredTours": {
       "title": "Nos Circuits Vedettes",
-      "subtitle": "Explorez nos forfaits les plus populaires, conçus pour mettre en valeur le meilleur de la beauté naturelle, de la faune et de la culture du Rwanda"
+      "subtitle": "Explorez nos forfaits les plus populaires, conçus pour mettre en valeur le meilleur de la beauté naturelle, de la faune et de la culture du Rwanda",
+      "nyungweForest": {
+        "price": "200 $ par personne"
+      },
+      "rwandaHighlights": {
+        "title": "Points Forts du Rwanda",
+        "description": "Découvrez le meilleur du Rwanda dans ce circuit complet.",
+        "duration": "7 jours",
+        "price": "1500 $ par personne"
+      },
+      "gorillaTrekking": {
+        "title": "Trekking des Gorilles",
+        "description": "Vivez l'excitation de randonner dans les forêts luxuriantes du Rwanda pour voir les gorilles de montagne dans leur habitat naturel.",
+        "duration": "3 jours",
+        "price": "1500 $"
+      },
+      "lakeKivu": {
+        "title": "Aventure au Lac Kivu",
+        "description": "Détendez-vous au bord des eaux sereines du Lac Kivu et profitez d'activités comme le kayak et les balades en bateau.",
+        "duration": "2 jours",
+        "price": "800 $"
+      },
+      "culturalHeritage": {
+        "title": "Tour du Patrimoine Culturel",
+        "description": "Découvrez le riche patrimoine culturel du Rwanda à travers des visites de musées, de villages traditionnels et de centres culturels.",
+        "duration": "1 jour",
+        "price": "200 $"
+      },
+      "kigaliCity": {
+        "title": "Tour de la Ville de Kigali",
+        "description": "Explorez la culture vibrante, l'histoire et les attractions modernes de Kigali.",
+        "duration": "Demi-journée",
+        "price": "100 $"
+      },
+      "nyungweForest": {
+        "title": "Aventure dans la Forêt de Nyungwe",
+        "description": "Randonnez dans la Forêt de Nyungwe et vivez son impressionnante promenade en canopée.",
+        "duration": "2 jours",
+        "price": "600 $"
+      }
     },
     "customTours": {
       "title": "Circuits Personnalisés",
       "subtitle": "Nous nous spécialisons dans la création d'itinéraires personnalisés adaptés à vos intérêts, votre calendrier et votre budget",
-      "inquire": "Renseignez-Vous Maintenant"
+      "inquire": "Renseignez-Vous Maintenant",
+      "family": {
+        "title": "Aventures en Famille",
+        "description": "Circuits adaptés pour les familles explorant le Rwanda ensemble."
+      },
+      "honeymoon": {
+        "title": "Forfaits Lune de Miel",
+        "description": "Escapades romantiques pour les jeunes mariés au Rwanda."
+      },
+      "photography": {
+        "title": "Circuits Photographie",
+        "description": "Capturez la beauté du Rwanda avec des circuits guidés."
+      },
+      "birdwatching": {
+        "title": "Circuits d'Observation des Oiseaux",
+        "description": "Découvrez les espèces d'oiseaux diversifiées du Rwanda avec des guides experts."
+      },
+      "inquireNow": "Renseignez-vous Maintenant",
+      "designYourOwn": {
+        "title": "Concevez Votre Propre Circuit",
+        "description": "Créez un itinéraire personnalisé basé sur vos préférences.",
+        "cta": "Commencez à Planifier"
+      }
     },
     "designYourOwn": {
       "title": "Concevez Votre Propre Circuit",
@@ -340,6 +437,12 @@
     "minLength": "Ce champ doit comporter au moins {length} caractères",
     "maxLength": "Ce champ doit comporter moins de {length} caractères",
     "serverError": "Une erreur s'est produite. Veuillez réessayer plus tard."
+  },
+  "errorBoundary": {
+    "title": "Quelque chose s'est mal passé",
+    "message": "Nous sommes désolés, une erreur s'est produite lors du rendu de cette page.",
+    "reload": "Recharger la page"
   }
+  
 }
 

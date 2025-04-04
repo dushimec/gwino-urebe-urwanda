@@ -185,51 +185,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb12">
-            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-4">What Our Clients Say</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">Hear from travelers who have experienced Rwanda with us.</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <TestimonialCard
-                key={index}
-                name={testimonial.name}
-                country={testimonial.country}
-                testimonial={testimonial.testimonial}
-                image={testimonial.image}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Call to Action */}
-      <section className="py-16 bg-green-700 text-white">
-        <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Experience Rwanda?</h2>
-          <p className="max-w-2xl mx-auto mb-8 text-lg">
-            Book your tour today and discover the beauty of the Land of a Thousand Hills.
-          </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link
-              to="/tours"
-              className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300"
-            >
-              Browse Tours
-            </Link>
-            <Link
-              to="/contact"
-              className="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300"
-            >
-              Contact Us
-            </Link>
-          </div>
-        </div>
-      </section>
+    
     </div>
   )
 }

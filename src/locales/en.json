@@ -114,55 +114,116 @@
       "subtitle": "Let us help you plan the perfect Rwanda itinerary",
       "viewTours": "View Our Tours",
       "contactUs": "Contact Us"
+    },
+    "volcanoesPark": {
+      "name": "Volcanoes National Park",
+      "description": "A haven for mountain gorillas and golden monkeys.",
+      "longDescription": "Explore the lush forests of Volcanoes National Park, home to the majestic mountain gorillas and a variety of wildlife.",
+      "activities": ["Gorilla trekking", "Golden monkey tracking", "Hiking"]
+    },
+    "lakeKivu": {
+      "name": "Lake Kivu",
+      "description": "A serene lake offering breathtaking views and water activities.",
+      "longDescription": "Relax by the tranquil waters of Lake Kivu, enjoy kayaking, and explore the scenic beauty of the surrounding hills.",
+      "activities": ["Kayaking", "Boat rides", "Swimming"]
+    },
+    "genocideMemorials": {
+      "name": "Genocide Memorials",
+      "description": "Sites commemorating Rwanda's history and resilience.",
+      "longDescription": "Visit the genocide memorials to learn about Rwanda's history and honor the resilience of its people.",
+      "activities": ["Guided tours", "Educational exhibits"]
+    },
+    "nyungweForest": {
+      "name": "Nyungwe Forest",
+      "description": "A pristine rainforest with diverse wildlife and canopy walks.",
+      "longDescription": "Discover the biodiversity of Nyungwe Forest, known for its chimpanzees, birds, and the iconic canopy walk.",
+      "activities": ["Chimpanzee trekking", "Canopy walk", "Birdwatching"]
+    },
+    "akageraPark": {
+      "name": "Akagera National Park",
+      "description": "A savannah park with diverse wildlife and scenic landscapes.",
+      "longDescription": "Experience the beauty of Akagera National Park, home to the Big Five and stunning savannah landscapes.",
+      "activities": ["Game drives", "Boat safaris", "Birdwatching"]
+    },
+    "kigaliCity": {
+      "name": "Kigali City",
+      "description": "The vibrant capital of Rwanda with rich culture and history.",
+      "longDescription": "Explore Kigali City, known for its cleanliness, cultural landmarks, and bustling markets.",
+      "activities": ["City tours", "Museum visits", "Local markets"]
     }
   },
   "culturalExperiences": {
     "hero": {
-      "title": "Cultural Experiences",
-      "subtitle": "Immerse yourself in Rwanda's rich cultural heritage"
-    },
-    "intro": {
-      "title": "Discover Rwandan Culture",
-      "content1": "Rwanda's cultural heritage is as diverse and beautiful as its landscapes. From traditional dance and music to handicrafts, cuisine, and community experiences, there are countless ways to immerse yourself in Rwandan culture.",
-      "content2": "Our cultural experiences are designed to provide authentic interactions with local communities, supporting traditional practices while offering visitors meaningful insights into Rwandan life and traditions."
-    },
-    "bookExperience": "Book This Experience",
-    "testimonials": {
-      "title": "What Our Clients Say",
-      "subtitle": "Hear from travelers who have experienced Rwandan culture with us"
-    },
-    "cta": {
-      "title": "Ready to Experience Rwandan Culture?",
-      "subtitle": "Book a cultural experience or include cultural activities in your custom tour",
-      "viewTours": "View Our Tours",
-      "contactUs": "Contact Us"
-    },
-    "heroTitle": "Discover Rwanda's Cultural Heritage",
-    "heroSubtitle": "Immerse yourself in the rich traditions, art, and cuisine of Rwanda through unforgettable experiences.",
-    "introTitle": "Explore Rwanda's Cultural Treasures",
-    "introText1": "Rwanda is a land of vibrant traditions, where every dance, craft, and dish tells a story of resilience and unity.",
-    "introText2": "Join us on a journey to uncover the heart of Rwanda through its cultural experiences, connecting with its people and heritage.",
-    "testimonialsTitle": "What Our Guests Say",
-    "testimonialsSubtitle": "Hear from travelers who have experienced the magic of Rwanda's culture.",
-    "testimonial1": "The traditional dance performance was breathtaking! I felt so connected to the history and spirit of Rwanda.",
-    "testimonial2": "Learning to weave baskets with local artisans was such a rewarding experience. I’ll cherish the memories forever.",
-    "testimonial3": "Sharing a meal with a Rwandan family was the highlight of my trip. Their warmth and hospitality were unforgettable.",
-    "ctaTitle": "Ready to Experience Rwanda's Culture?",
-    "ctaSubtitle": "Book your cultural adventure today and create memories that will last a lifetime."
-  },
-  "tours": {
-    "hero": {
-      "title": "Tours & Packages",
-      "subtitle": "Discover our carefully crafted tours to experience the best of Rwanda"
     },
     "featuredTours": {
       "title": "Our Featured Tours",
-      "subtitle": "Explore our most popular tour packages, designed to showcase the best of Rwanda's natural beauty, wildlife, and culture"
+      "subtitle": "Explore our most popular tour packages, designed to showcase the best of Rwanda's natural beauty, wildlife, and culture",
+      "nyungweForest": {
+        "price": "$200 per person"
+      },
+      "rwandaHighlights": {
+        "title": "Rwanda Highlights",
+        "description": "Experience the best of Rwanda in this comprehensive tour.",
+        "duration": "7 days",
+        "price": "$1500 per person"
+      },
+      "gorillaTrekking": {
+        "title": "Gorilla Trekking",
+        "description": "Experience the thrill of trekking through Rwanda's lush forests to see mountain gorillas in their natural habitat.",
+        "duration": "3 days",
+        "price": "$1500"
+      },
+      "lakeKivu": {
+        "title": "Lake Kivu Adventure",
+        "description": "Relax by the serene waters of Lake Kivu and enjoy water activities like kayaking and boat rides.",
+        "duration": "2 days",
+        "price": "$800"
+      },
+      "culturalHeritage": {
+        "title": "Cultural Heritage Tour",
+        "description": "Discover Rwanda's rich cultural heritage through museum visits and traditional performances.",
+        "duration": "1 day",
+        "price": "$200"
+      },
+      "kigaliCity": {
+        "title": "Kigali City Tour",
+        "description": "Explore Kigali's vibrant culture, historical landmarks, and bustling markets.",
+        "duration": "Half Day",
+        "price": "$100"
+      },
+      "nyungweForest": {
+        "title": "Nyungwe Forest Adventure",
+        "description": "Hike through Nyungwe Forest and experience its breathtaking canopy walk.",
+        "duration": "2 Days",
+        "price": "$600"
+      }
     },
     "customTours": {
       "title": "Customized Tours",
       "subtitle": "We specialize in creating personalized itineraries tailored to your interests, timeframe, and budget",
-      "inquire": "Inquire Now"
+      "inquire": "Inquire Now",
+      "family": {
+        "title": "Family Adventures",
+        "description": "Tailored tours for families to explore Rwanda together."
+      },
+      "honeymoon": {
+        "title": "Honeymoon Packages",
+        "description": "Romantic getaways for newlyweds in Rwanda."
+      },
+      "photography": {
+        "title": "Photography Tours",
+        "description": "Capture Rwanda's beauty with guided photography tours."
+      },
+      "birdwatching": {
+        "title": "Birdwatching Tours",
+        "description": "Discover Rwanda's diverse bird species with expert guides."
+      },
+      "inquireNow": "Inquire Now",
+      "designYourOwn": {
+        "title": "Design Your Own Tour",
+        "description": "Create a custom itinerary based on your preferences.",
+        "cta": "Start Planning"
+      }
     },
     "designYourOwn": {
       "title": "Design Your Own Tour",
@@ -342,6 +403,58 @@
     "minLength": "This field must be at least {length} characters",
     "maxLength": "This field must be less than {length} characters",
     "serverError": "An error occurred. Please try again later."
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "message": "We're sorry, but an error occurred while rendering this page.",
+    "reload": "Reload Page"
+  },
+  
+    "tours": {
+      "hero": {
+        "title": "Ingendo n’Ubukerarugendo",
+        "subtitle": "Sura ingendo zacu zateguwe neza kugira ngo wiyumvemo ibyiza byose u Rwanda rufite"
+      },
+      "featuredTours": {
+        "title": "Ingendo Zirimo Ibyiza Kurusha Izindi",
+        "subtitle": "Sura ingendo zikunzwe cyane zateguwe kugaragaza ubwiza karemano, inyamaswa, n’umuco w’u Rwanda",
+        "nyungweForest": {
+          "title": "Ubukerarugendo bwa Nyungwe",
+          "description": "Tembera ishyamba rya Nyungwe kandi wiyumvemo urugendo rwo mu biti hejuru (canopy walk).",
+          "duration": "Iminsi 2",
+          "price": "600 $ ku muntu"
+        },
+        "rwandaHighlights": {
+          "title": "Ibyiza by’u Rwanda",
+          "description": "Sura ibyiza byose by’u Rwanda muri uru rugendo rwuzuye.",
+          "duration": "Iminsi 7",
+          "price": "1500 $ ku muntu"
+        },
+        "gorillaTrekking": {
+          "title": "Gusura Ingagi",
+          "description": "Wiyumvemo ibyishimo byo gutembera mu mashyamba y’u Rwanda ushaka ingagi zo mu misozi mu buzima bwazo.",
+          "duration": "Iminsi 3",
+          "price": "1500 $"
+        },
+        "lakeKivu": {
+          "title": "Ubukerarugendo ku Kiyaga cya Kivu",
+          "description": "Utuze ku mazi meza ya Kivu, wishimire ibikorwa nko kugendera mu bwato no gukina kayak.",
+          "duration": "Iminsi 2",
+          "price": "800 $"
+        },
+        "culturalHeritage": {
+          "title": "Gusura Umurage Nyarwanda",
+          "description": "Menya amateka n’umuco nyarwanda binyuze mu gusura ingoro ndangamateka, imidugudu ya kera n’ibigo by’umuco.",
+          "duration": "Umunsi 1",
+          "price": "200 $"
+        },
+        "kigaliCity": {
+          "title": "Gusura Umujyi wa Kigali",
+          "description": "Sura umujyi wa Kigali, wuzuyemo umuco, amateka n’ibikorwa bigezweho.",
+          "duration": "Igice cy’umunsi",
+          "price": "100 $"
+        }
+      }
+    }
   }
-}
-
+  

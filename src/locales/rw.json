@@ -26,9 +26,9 @@
   },
   "home": {
     "hero": {
-      "title": "Murakaza neza mu Rwanda",
-      "subtitle": "Menya ubwiza bw'Igihugu cy'Imisozi Igihumbi",
-      "cta": "Reba Ingendo"
+      "title": "Murakaza neza mu Bukerarugendo bw'u Rwanda",
+      "subtitle": "Menya ubwiza bw'u Rwanda, Igihugu cy'Imisozi Igihumbi",
+      "cta": "Menya Ingendo"
     },
     "whyChooseUs": {
       "title": "Kuki Wahitamo Twebwe",
@@ -62,7 +62,19 @@
       "subtitle": "Saba urugendo rwawe none kandi uzahe kureba ubwiza bw'Igihugu cy'Imisozi Igihumbi",
       "browseTours": "Reba Ingendo",
       "contactUs": "Twandikire"
-    }
+    },
+    "whyChooseUs": "Impamvu zo kuduhitamo",
+    "experiencedGuides": "Abayobora ba Mukerarugendo b'inararibonye",
+    "unforgettableExperiences": "Ibikorwa bitazibagirana",
+    "exceptionalService": "Serivisi idasanzwe",
+    "featuredDestinations": "Ahantu h'ingenzi",
+    "volcanoesPark": "Pariki y'Igihugu y'Ibirunga",
+    "lakeKivu": "Ikivu",
+    "genocideMemorials": "Inzibutso za Jenoside",
+    "testimonials": "Ibyo abakiriya bacu bavuga",
+    "ctaTitle": "Witeguye Kugera ku Rwanda?",
+    "browseTours": "Reba Ingendo",
+    "contactUs": "Tuvugishe"
   },
   "about": {
     "hero": {
@@ -102,20 +114,57 @@
       "contactUs": "Twandikire"
     }
   },
-  "destinations": {
-    "hero": {
-      "title": "Aho Ujya",
-      "subtitle": "Uzahe kureba ahantu heza cyane u Rwanda rufite"
-    },
-    "activities": "Ibikorwa:",
-    "exploreTours": "Reba Ingendo",
-    "cta": {
-      "title": "Witeguye Gusura Aha Hantu Heza?",
-      "subtitle": "Reka tugufashe gutegura urugendo rwiza mu Rwanda",
-      "viewTours": "Reba Ingendo Zacu",
-      "contactUs": "Twandikire"
-    }
+"destinations": {
+  "hero": {
+    "title": "Aho Gusura",
+    "subtitle": "Sura ahantu heza cyane u Rwanda rufite"
   },
+  "activities": "Ibikorwa:",
+  "exploreTours": "Sura Ingendo",
+  "cta": {
+    "title": "Witeguye Gusura Aha Hantu Hataratse Ubwiza?",
+    "subtitle": "Reka tugufashe gutegura urugendo rwiza mu Rwanda",
+    "viewTours": "Reba Ingendo Zacu",
+    "contactUs": "Tuvugishe"
+  },
+  "volcanoesPark": {
+    "name": "Pariki y'Igihugu y'Ibirunga",
+    "description": "Ubuhungiro bw'ingagi zo mu misozi n'inguge z'amabara ya zahabu.",
+    "longDescription": "Sura ishyamba ryiza rya Pariki y'Ibirunga, aho ingagi zo mu misozi n'ibindi binyabuzima bitandukanye bibarizwa.",
+    "activities": ["Gusura ingagi", "Gukurikirana inguge za zahabu", "Kugenda mu misozi"]
+  },
+  "lakeKivu": {
+    "name": "Ikivu",
+    "description": "Ikivu cyuzuye ituze, gitanga amafoto meza n'ibikorwa byo mu mazi.",
+    "longDescription": "Uruhuke ku nkombe z’Ikivu, ukore kayak, unishimire ubwiza bw’imisozi ibikikije.",
+    "activities": ["Kayak", "Kugenda mu bwato", "Koga"]
+  },
+  "genocideMemorials": {
+    "name": "Ahazirikanwa Jenoside",
+    "description": "Aho bibuka amateka y’u Rwanda n’imbaraga zarwo.",
+    "longDescription": "Sura inzibutso za Jenoside wige amateka y’u Rwanda, wubahe n’imbaraga z’abarokotse.",
+    "activities": ["Inyigisho ziyobowe", "Imurikabikorwa y’amateka"]
+  },
+  "nyungweForest": {
+    "name": "Ishyamba rya Nyungwe",
+    "description": "Ishyamba ry’ubwiza bw’umwimerere ryarimo inyamaswa zitandukanye n’inzira mu biti hejuru.",
+    "longDescription": "Menya ubuzima bw’inyamaswa muri Nyungwe, aho usanga inshabure, inyoni, n’inzira igaragara hejuru y’ibiti.",
+    "activities": ["Gukurikirana inshabure", "Kunyura ku nzira hejuru y'ibiti", "Kureba inyoni"]
+  },
+  "akageraPark": {
+    "name": "Pariki y'Igihugu y'Akagera",
+    "description": "Pariki y’imisozi n’ubutayu ifite inyamaswa zitandukanye n’ubwiza bw’ikirere.",
+    "longDescription": "Sura ubwiza bwa Pariki y’Akagera, aho usanga inyamaswa z'ingenzi nka Big Five n’ubutayu butangaje.",
+    "activities": ["Kugenda muri pariki", "Ingendo mu bwato", "Kureba inyoni"]
+  },
+  "kigaliCity": {
+    "name": "Umujyi wa Kigali",
+    "description": "Umurwa mukuru w’u Rwanda ufite umuco n’amateka akomeye.",
+    "longDescription": "Sura Kigali, umujyi uzwiho isuku, ahantu nyaburanga n’amasoko asabana.",
+    "activities": ["Gusura umujyi", "Gusura inzu ndangamurage", "Gucuruza mu masoko"]
+  }
+}
+,
   "culturalExperiences": {
     "hero": {
       "title": "Ibikorwa by'Umuco",
@@ -145,12 +194,43 @@
     },
     "featuredTours": {
       "title": "Ingendo Zacu Zizwi",
-      "subtitle": "Reba ingendo zacu zizwi cyane, zateguwe kugira ngo zigaragaze ibyiza by'u Rwanda, inyamaswa, n'umuco"
+      "subtitle": "Reba ingendo zacu zizwi cyane, zateguwe kugira ngo zigaragaze ibyiza by'u Rwanda, inyamaswa, n'umuco",
+      "nyungweForest": {
+        "price": "200 $ ku muntu"
+      },
+      "rwandaHighlights": {
+        "title": "Ibikorwa By'ingenzi mu Rwanda",
+        "description": "Menya ibyiza byose by'u Rwanda muri uru rugendo rwuzuye.",
+        "duration": "Iminsi 7",
+        "price": "1500 $ ku muntu"
+      }
     },
     "customTours": {
       "title": "Ingendo Zihariye",
       "subtitle": "Twihariye mu gutegura ingendo zikurikije ibyo ukunda, igihe ufite, n'amafaranga ushaka gutanga",
-      "inquire": "Baza Ubu"
+      "inquire": "Baza Ubu",
+      "family": {
+        "title": "Ibikorwa by'Imiryango",
+        "description": "Ingendo zateguwe ku miryango ishaka gusura u Rwanda hamwe."
+      },
+      "honeymoon": {
+        "title": "Pakeji za Mbere y'Ubukwe",
+        "description": "Ahantu h'ubwiza ku bashakanye bashya mu Rwanda."
+      },
+      "photography": {
+        "title": "Ingendo zo Gufotora",
+        "description": "Fata amafoto y'ubwiza bw'u Rwanda mu ngendo ziyobowe."
+      },
+      "birdwatching": {
+        "title": "Ingendo zo Kwitegereza Ibisiga",
+        "description": "Menya ibisiga bitandukanye by'u Rwanda hamwe n'inzobere."
+      },
+      "inquireNow": "Baza Ubu",
+      "designYourOwn": {
+        "title": "Tegura Urugendo rwawe",
+        "description": "Hanga gahunda y'urugendo ukurikije ibyo ukunda.",
+        "cta": "Tangira Gahunda"
+      }
     },
     "designYourOwn": {
       "title": "Tegura Urugendo Rwawe",
@@ -330,6 +410,11 @@
     "minLength": "Iki gice kigomba kugira nibura inyuguti {length}",
     "maxLength": "Iki gice kigomba kugira inyuguti zitarenze {length}",
     "serverError": "Hari ikibazo cyabaye. Nyamuneka ongera ugerageze nyuma."
+  },
+  "errorBoundary": {
+    "title": "Ikintu cyagenze nabi",
+    "message": "Tubabajwe n'uko habayeho ikosa mu gihe cyo kwerekana uru rupapuro.",
+    "reload": "Subiramo Urupapuro"
   }
 }
 

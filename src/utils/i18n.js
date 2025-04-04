@@ -1,9 +1,25 @@
 "use client"
 
+import i18n from "i18next"
+import { initReactI18next } from "react-i18next"
 import enTranslations from "../locales/en.json"
 import frTranslations from "../locales/fr.json"
 import rwTranslations from "../locales/rw.json"
 import { useLanguage } from "../context/LanguageContext"
+
+// Initialize i18next
+i18n.use(initReactI18next).init({
+  resources: {
+    en: { translation: enTranslations },
+    fr: { translation: frTranslations },
+    rw: { translation: rwTranslations },
+  },
+  lng: "en", // Default language
+  fallbackLng: "en",
+  interpolation: {
+    escapeValue: false, // React already escapes values
+  },
+})
 
 // All available translations
 const translations = {
@@ -66,3 +82,4 @@ export function useTranslation() {
   return { t, language }
 }
 
+export default i18n

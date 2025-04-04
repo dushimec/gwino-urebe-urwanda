@@ -13,84 +13,84 @@ const Gallery = () => {
   const images = [
     {
       id: 1,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_fj8tFvIV8SvRaXIyP8--es_wbwU3nZOmgw&s",
       alt: "Mountain Gorilla in Volcanoes National Park",
       category: "Wildlife",
       caption: "Mountain Gorilla in Volcanoes National Park",
     },
     {
       id: 2,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ARIjqR1WftLHmSZN2mbKnuDl21ScqHVXuQ&s",
       alt: "Lake Kivu Sunset",
       category: "Landscapes",
       caption: "Beautiful sunset over Lake Kivu",
     },
     {
       id: 3,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8CCMnzu3hYb5opkICRv3YVQrTVu0oMkohOg&s",
       alt: "Traditional Dancers",
       category: "Culture",
       caption: "Intore dancers performing traditional Rwandan dance",
     },
     {
       id: 4,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNpvtXSyL9DPfseHF3khgJCRPaMCIhzWtgOw&s",
       alt: "Kayaking on Lake Kivu",
       category: "Activities",
       caption: "Kayaking adventure on Lake Kivu",
     },
     {
       id: 5,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVIm8pMi0n5wuniQI1YNw4q3UXHzsWNkPu3A&s",
       alt: "Golden Monkeys",
       category: "Wildlife",
       caption: "Golden Monkeys in Volcanoes National Park",
     },
     {
       id: 6,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXLvKmI8g7o2bZX3KNV2Wz-njDglh1ABa_oA&s",
       alt: "Nyungwe Forest Canopy Walkway",
       category: "Activities",
       caption: "Walking on the Canopy Walkway in Nyungwe Forest",
     },
     {
       id: 7,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTePcgJdjpfI_EKtQJTZ73OUQaxeB8xcBy39Q&s",
       alt: "Virunga Mountains",
       category: "Landscapes",
       caption: "View of the Virunga Mountains",
     },
     {
       id: 8,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTjiWIC6_wqjhOH4akNlmT6cPWfdVWDScSDw&s",
       alt: "Basket Weaving",
       category: "Culture",
       caption: "Traditional basket weaving in a local village",
     },
     {
       id: 9,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDrZLTpbQLlYbcp9bzs_ZyY3s7iqum48IXyA&s",
       alt: "Akagera National Park Safari",
       category: "Wildlife",
       caption: "Elephants in Akagera National Park",
     },
     {
       id: 10,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaoeicQEhuWmc00hneqJo3lGM7gJNlgo4gEg&s",
       alt: "Coffee Plantation",
       category: "Activities",
       caption: "Visiting a coffee plantation",
     },
     {
       id: 11,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://media.istockphoto.com/id/1208050769/photo/kigali-rwanda-skyline-at-night.jpg?s=612x612&w=0&k=20&c=glAfLkbjIHTuvRiyxrX0z6WE_2DWcx3qp293CD76jgs=",
       alt: "Kigali City Skyline",
       category: "Landscapes",
       caption: "Kigali city skyline at dusk",
     },
     {
       id: 12,
-      src: "/placeholder.svg?height=600&width=800",
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnCOahIlkuC3O2cYZajTdds3aBnNz95VjLlA&s",
       alt: "Cultural Performance",
       category: "Culture",
       caption: "Cultural performance at a community center",
@@ -135,8 +135,8 @@ const Gallery = () => {
     <div>
       {/* Hero Section */}
       <section
-        className="relative h-[50vh] bg-cover bg-center"
-        style={{ backgroundImage: "url('/placeholder.svg?height=600&width=1200')" }}
+        className="relative h-[40vh] bg-cover bg-center"
+        style={{ backgroundImage: "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTivZN0a_MCnHnpBLRl7JvT1aqfENEmhN2s9A&s')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
           <div className="text-center text-white px-4">

@@ -11,7 +11,7 @@ import CulturalExperiences from "./pages/CulturalExperiences"
 import Tours from "./pages/Tours"
 import Gallery from "./pages/Gallery"
 import Contact from "./pages/Contact"
-import Blog from "./pages/Blog"
+
 import ScrollToTop from "./utils/scrollToTop"
 import ScrollToTopButton from "./components/ScrollToTopButton"
 import { trackPageView } from "./services/analytics"
@@ -34,7 +34,7 @@ function App() {
   return (
     <LanguageProvider>
       <ThemeProvider>
-        <Router>
+        <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           <ScrollToTop />
           <AnalyticsTracker />
           <div className="flex flex-col min-h-screen">
@@ -48,7 +48,7 @@ function App() {
                 <Route path="/tours" element={<Tours />} />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="/blog" element={<Blog />} />
+               
               </Routes>
             </main>
             <Footer />

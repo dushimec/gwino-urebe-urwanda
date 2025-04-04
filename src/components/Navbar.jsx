@@ -24,12 +24,12 @@ const Navbar = () => {
   const inactiveLinkClass = "text-gray-700 hover:text-green-700 font-medium hover:underline text-sm"
 
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
+    <header className="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50"> {/* Added dark mode styles */}
       <div className="container mx-auto px-3 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-sm font-bold text-orange-500">{t("general.appName").split(" ")[0]}</span>
-            <span className="ml-1 text-sm font-bold text-orange-500">
+            <span className="text-sm font-bold text-orange-500 dark:text-orange-300">{t("general.appName").split(" ")[0]}</span>
+            <span className="ml-1 text-sm font-bold text-orange-500 dark:text-orange-300">
               {t("general.appName").split(" ").slice(1).join(" ")}
             </span>
           </Link>
@@ -61,18 +61,16 @@ const Navbar = () => {
               <Link to="/contact" className={isActive("/contact") ? activeLinkClass : inactiveLinkClass}>
                 {t("nav.contact")}
               </Link>
-              <Link to="/blog" className={isActive("/blog") ? activeLinkClass : inactiveLinkClass}>
-                {t("nav.blog")}
-              </Link>
+            
             </nav>
-
+          
             <div className="hidden md:flex items-center space-x-1">
               <LanguageSelector />
               <ThemeToggle />
             </div>
 
             <div className="md:hidden flex items-center">
-              <button onClick={toggleMenu} className="ml-2 text-gray-700">
+              <button onClick={toggleMenu} className="ml-2 text-gray-700 dark:text-gray-300">
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
             </div>
