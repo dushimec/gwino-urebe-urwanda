@@ -1,6 +1,6 @@
 {
   "general": {
-    "appName": "GWINO UREBE URWANDA RWIZA",
+    "appName": "NGWINO UREBE URWANDA RWIZA",
     "tagline": "Uzahe kureba ubwiza bw'u Rwanda, Igihugu cy'Imisozi Igihumbi",
     "readMore": "Soma Ibindi",
     "viewAll": "Reba Byose",
@@ -83,7 +83,7 @@
     },
     "story": {
       "title": "Amateka Yacu",
-      "content1": "GWINO UREBE URWANDA RWIZA yatangijwe n'intego yoroshye: gusangiza isi ubwiza budasanzwe n'umuco w'u Rwanda. Izina ryacu, risobanura ngo \"Ngwino Urebe u Rwanda Rwiza,\" rigaragaza ubwitange bwacu mu gutanga ibikorwa by'ukuri kandi byimbitse.",
+      "content1": "NGWINO UREBE URWANDA RWIZA yatangijwe n'intego yoroshye: gusangiza isi ubwiza budasanzwe n'umuco w'u Rwanda. Izina ryacu, risobanura ngo \"Ngwino Urebe u Rwanda Rwiza,\" rigaragaza ubwitange bwacu mu gutanga ibikorwa by'ukuri kandi byimbitse.",
       "content2": "Ikipe yacu igizwe n'abayobozi b'ingendo b'abanyarwanda bafite ubumenyi bwimbitse ku mateka y'u Rwanda, inyamaswa, n'imigenzo. Twizera ko ubukerarugendo bugomba kugirira akamaro abaturage bo mu gace kandi bukagira uruhare mu kubungabunga ibidukikije, niyo mpamvu dukorana bya hafi n'abafatanyabikorwa bo mu gace kandi dushyigikira ibikorwa birambye.",
       "content3": "Waba ushaka gusura ingagi, kureba imisozi itatse ubwiza, cyangwa kwiga umuco w'u Rwanda, twiyemeje gutanga ibikorwa bitazibagirana bigaragaza ubwiza bw'igihugu cyacu cyiza."
     },
@@ -306,7 +306,7 @@
       },
       "email": {
         "title": "Imeyili",
-        "value": "info@gwinourebe.rw"
+        "value": "info@ngwinourebe.rw"
       },
       "hours": {
         "title": "Amasaha y'Akazi",
@@ -401,7 +401,7 @@
     "quickLinks": "Aho Ugera Vuba",
     "popularDestinations": "Ahantu Hazwi Cyane",
     "contactUs": "Twandikire",
-    "copyright": "© {year} GWINO UREBE URWANDA RWIZA. Uburenganzira bwose bwihariwe."
+    "copyright": "© {year} NGWINO UREBE URWANDA RWIZA. Uburenganzira bwose bwihariwe."
   },
   "errors": {
     "required": "Iki gice girakenewe",

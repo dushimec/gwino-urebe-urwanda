@@ -1,6 +1,6 @@
 {
   "general": {
-    "appName": "GWINO UREBE URWANDA RWIZA",
+    "appName": "NGWINO UREBE URWANDA RWIZA",
     "tagline": "Discover the beauty of Rwanda, the Land of a Thousand Hills",
     "readMore": "Read More",
     "viewAll": "View All",
@@ -26,7 +26,7 @@
   },
   "home": {
     "hero": {
-      "title": "GWINO UREBE URWANDA RWIZA",
+      "title": "NGWINO UREBE URWANDA RWIZA",
       "subtitle": "Discover the beauty of the Land of a Thousand Hills",
       "cta": "Explore Tours"
     },
@@ -71,7 +71,7 @@
     },
     "story": {
       "title": "Our Story",
-      "content1": "GWINO UREBE URWANDA RWIZA was founded with a simple mission: to share the incredible beauty and rich culture of Rwanda with the world. Our name, which translates to \"Come and See Beautiful Rwanda,\" embodies our commitment to providing authentic and immersive experiences.",
+      "content1": "NGWINO UREBE URWANDA RWIZA was founded with a simple mission: to share the incredible beauty and rich culture of Rwanda with the world. Our name, which translates to \"Come and See Beautiful Rwanda,\" embodies our commitment to providing authentic and immersive experiences.",
       "content2": "Our team consists of passionate local guides who have deep knowledge of Rwanda's history, wildlife, and traditions. We believe that tourism should benefit local communities and contribute to conservation efforts, which is why we work closely with local partners and support sustainable practices.",
       "content3": "Whether you're interested in gorilla trekking, exploring the stunning landscapes, or immersing yourself in Rwandan culture, we are dedicated to creating unforgettable experiences that showcase the best of our beautiful country."
     },
@@ -299,7 +299,7 @@
       },
       "email": {
         "title": "Email Address",
-        "value": "info@gwinourebe.rw"
+        "value": "info@ngwinourebe.rw"
       },
       "hours": {
         "title": "Business Hours",
@@ -394,7 +394,7 @@
     "quickLinks": "Quick Links",
     "popularDestinations": "Popular Destinations",
     "contactUs": "Contact Us",
-    "copyright": "© {year} GWINO UREBE URWANDA RWIZA. All rights reserved."
+    "copyright": "© {year} NGWINO UREBE URWANDA RWIZA. All rights reserved."
   },
   "errors": {
     "required": "This field is required",

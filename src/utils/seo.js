@@ -15,7 +15,7 @@ export function updateSEO({
   twitterCard = "summary_large_image",
 }) {
   // Update document title
-  document.title = title ? `${title} | GWINO UREBE URWANDA RWIZA` : "GWINO UREBE URWANDA RWIZA | Rwanda Tourism"
+  document.title = title ? `${title} | NGWINO UREBE URWANDA RWIZA` : "NGWINO UREBE URWANDA RWIZA | Rwanda Tourism"
 
   // Update meta tags
   updateMetaTag("description", description)

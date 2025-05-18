@@ -38,7 +38,7 @@ const Home = () => {
       name: "David Chen",
       country: "Canada",
       testimonial:
-        "Rwanda is a beautiful country with warm, welcoming people. Our tour with GWINO UREBE was perfect from start to finish.",
+        "Rwanda is a beautiful country with warm, welcoming people. Our tour with NGWINO UREBE was perfect from start to finish.",
       image: "/placeholder.svg?height=100&width=100",
     },
     {

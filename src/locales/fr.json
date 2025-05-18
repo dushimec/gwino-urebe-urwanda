@@ -1,6 +1,6 @@
 {
   "general": {
-    "appName": "GWINO UREBE URWANDA RWIZA",
+    "appName": "NGWINO UREBE URWANDA RWIZA",
     "tagline": "Découvrez la beauté du Rwanda, le Pays des Mille Collines",
     "readMore": "Lire Plus",
     "viewAll": "Voir Tout",
@@ -71,7 +71,7 @@
     },
     "story": {
       "title": "Notre Histoire",
-      "content1": "GWINO UREBE URWANDA RWIZA a été fondé avec une mission simple : partager l'incroyable beauté et la riche culture du Rwanda avec le monde. Notre nom, qui se traduit par \"Venez et Voyez le Beau Rwanda\", incarne notre engagement à offrir des expériences authentiques et immersives.",
+      "content1": "NGWINO UREBE URWANDA RWIZA a été fondé avec une mission simple : partager l'incroyable beauté et la riche culture du Rwanda avec le monde. Notre nom, qui se traduit par \"Venez et Voyez le Beau Rwanda\", incarne notre engagement à offrir des expériences authentiques et immersives.",
       "content2": "Notre équipe est composée de guides locaux passionnés qui ont une connaissance approfondie de l'histoire, de la faune et des traditions du Rwanda. Nous croyons que le tourisme devrait profiter aux communautés locales et contribuer aux efforts de conservation, c'est pourquoi nous travaillons en étroite collaboration avec des partenaires locaux et soutenons des pratiques durables.",
       "content3": "Que vous soyez intéressé par le trekking des gorilles, l'exploration des paysages époustouflants ou l'immersion dans la culture rwandaise, nous nous engageons à créer des expériences inoubliables qui mettent en valeur le meilleur de notre magnifique pays."
     },
@@ -333,7 +333,7 @@
       },
       "email": {
         "title": "Adresse Email",
-        "value": "info@gwinourebe.rw"
+        "value": "info@ngwinourebe.rw"
       },
       "hours": {
         "title": "Heures d'Ouverture",
@@ -428,7 +428,7 @@
     "quickLinks": "Liens Rapides",
     "popularDestinations": "Destinations Populaires",
     "contactUs": "Contactez-Nous",
-    "copyright": "© {year} GWINO UREBE URWANDA RWIZA. Tous droits réservés."
+    "copyright": "© {year} NGWINO UREBE URWANDA RWIZA. Tous droits réservés."
   },
   "errors": {
     "required": "Ce champ est obligatoire",
