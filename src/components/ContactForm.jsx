@@ -118,10 +118,12 @@ const ContactForm = () => {
           >
             <option value="">Select a tour</option>
             <option value="gorilla-trekking">Gorilla Trekking</option>
-            <option value="lake-kivu">Lake Kivu Experience</option>
+            <option value="Lake Kivu Experience">Lake Kivu Experience</option>
             <option value="cultural-tour">Cultural Tour</option>
             <option value="genocide-memorial">Genocide Memorial Visit</option>
-            <option value="custom-tour">Custom Tour</option>
+            <option value="Volcanoes National Park">Volcanoes National Park</option>
+            <option value="Akagera National Park">Akagera National Park</option>
+            <option value="Kigali City">Kigali City Tour</option>
           </select>
         </div>
 

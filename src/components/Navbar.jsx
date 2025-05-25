@@ -28,11 +28,9 @@ const Navbar = () => {
       <div className="container mx-auto px-3 py-3">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-sm font-bold text-orange-500 dark:text-orange-300">{t("general.appName").split(" ")[0]}</span>
-            <span className="ml-1 text-sm font-bold text-orange-500 dark:text-orange-300">
-              {t("general.appName").split(" ").slice(1).join(" ")}
-            </span>
-          </Link>
+  <img src="/v3.png" alt="Logo" className="h-16 w-auto" />
+</Link>
+
 
           <div className="flex items-center space-x-4">
             {/* Desktop Navigation */}
